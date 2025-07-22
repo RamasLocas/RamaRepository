@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #292929;
+            line-height: 1.6;
+            font-size: 16px;
+            font-weight: bold;
+            margin: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background: #399648;
+            color: #ff8411;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #2929297a;
+            margin: 20px 0;
+        }
+
+        header img {
+            width: 150px;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .header-nav {
+            margin-top: 10px;   
+        }
+        .header-nav ol {
+            list-style: none;
+            padding: 0;
+        }
+        .header-nav ol li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .header-nav ol li a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main{
+            margin: 20px;  
+        }
+        main h2 {
+            text-align: center;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        section {
+            background: #f5f5f5c0;
+            margin-bottom: 20px;
+        }
+
+        section .img-menus{
+            width: 50%;
+            display: flex;
+            align-items: left;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        section article {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            align-items: center;
+        }
+    </style>
+    <title>☕😊 Onno </title>
+</head>
+<body>
+    <header>
+       
+        <img src="img/onno logotipo.png" id="header-logo" alt="logotipo">
+        <nav class="header-nav">
+            <ol>
+                <li><a href="#menu" class="nav-bottom">MENU</a></li>
+                <li><a href="#order" class="nav-bottom">ORDER</a></li>
+                <li><a href="#about" class="nav-bottom">ABOUT</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section id="Menu">
+            <h2> Menu </h2>
+            <div id="wrap-menu">
+                <article>
+                    <img class="img-menus" src="img/coffe-time.jpg" alt="img element"> 
+                    <h3>Coffee Time!</h3>
+                    <p>We have options for specialty coffee and traditional <br> "cafe con leche" and "cortado". <br> To all of the costumers who wants to enjoy.</p>
+                    <h3>Coffee</h3>
+                    <form action="" id="drinks-form">
+                        <ul id="coffee-list">
+                            <li>Pequeño - $3500</li>
+                            <li>Mediano - $3900</li>
+                            <li>Onno - $4600</li>
+                            <li>Filtrado - $6600</li>
+                            <li>Frío - $4700</li>
+                            <li>Cold Brew - $5000</li>
+                        </ul>
+                        <h3>Coffe With Milk</h3>
+                        <ul id="coffee-milk-list">
+                            <li>Pequeño - $4000</li>
+                            <li>Mediano - $4500</li>
+                            <li>Onno - $4900</li>
+                            <li>Frío - $5000</li>
+                        </ul>
+                    </form>
+                </article>
+                <hr>
+            </div>
+            <article>
+                <img class="img-menus" src="img/brunch-bakery.jpg" alt="img element">
+                <h3>Brunch & Bakery</h3>
+                <p>Here's some delicious option to eat! If you want to add to your coffee.</p>
+                <h3>Salty</h3>
+                <form action="" id="food-form"> 
+                    <ul id="salty-list">
+                        <li>Classic Chipá - $3300</li>
+                        <li>Chipá Roque - $3600</li>
+                    </ul>
+                    <ul id="sandwich-list">
+                        <li>Three Cheeses and Jam - $9000</li>
+                        <li>Three Cheeses and Bologna - $9000</li>
+                        <li>Four Cheeses and Olive - $9000</li>
+                    </ul>
+                </form>
+            </article>
+            <hr>
+            <article>
+                <img class="img-menus" src="img/Sin título-3.jpg" alt="img element">
+                <h3>Roast Coffee</h3>
+                <p>If you like our coffee you can buy it and have it in home to enjoy it for yourself and have the experience Onno.</p>
+                <form action="" id="beans-form">
+                    <ol>
+                        <li>Honduras - $27000</li>
+                        <li>Colombia - $28000</li>
+                    </ol>
+                </form>
+            </article>
+        </section>
+        <hr>
+        <section id="order">
+            <h2> Place your order </h2>
+            <form action="">
+                <label for="name"><h3> Choose your coffee and how many</h3> </label>
+                <input type="textbox" placeholder="Enter your coffee">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <input type="textbox" placeholder="Enter your coffee">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <input type="textbox" placeholder="Enter your coffee">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <input type="textbox" placeholder="Enter your coffee">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <input type="textbox" placeholder="Enter your coffee">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <input type="textbox" placeholder="Enter your coffee">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <h3>Some adds</h3>
+                <label for="">Cream</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <br>
+                <label for="">Cocoa</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <br>
+                <label for="">Cinnamon</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+
+                <br><br>
+
+                <label for="name"><h3>Choose something to eat:</h3></label>
+                <input type="textbox" placeholder="Choose something to eat!">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <input type="textbox" placeholder="Choose something to eat!">
+                <input type="number" min="0" max="20" placeholder="" required>
+                <br><br>
+                <input type="textbox" placeholder="Choose something to eat!">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <input type="textbox" placeholder="Choose something to eat!">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <input type="textbox" placeholder="Choose something to eat!">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <input type="textbox" placeholder="Choose something to eat!">
+                <input type="number" min="0" max="20" placeholder="" required >
+                <br><br>
+                <h3>Some adds</h3>
+                <label for="">Cheese</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <br>
+                <label for="">Jam</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <br>
+                <label for="">Bologna</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+
+                <br><br>
+
+                <label for="name"><h3>If you want roast beans you can choose it!</h3></label>
+                <input type="number" min="0" max="20" placeholder="Beans!">
+                <select name="roast-coffee" id="roast-coffee">
+                    <option value="Honduras">Honduras</option>
+                    <option value="Colombia">Colombia</option>
+                </select>
+                <br><br>
+                <input type="number" min="0" max="20" placeholder="Beans!">
+                <select name="roast-coffee" id="roast-coffee">
+                    <option value="Honduras">Honduras</option>
+                    <option value="Colombia">Colombia</option>
+                </select>
+
+                <br><br>
+
+                <p>¿Special Request to your order?</p>
+                <textarea name="" id="" maxlength="50"></textarea>
+            </form>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <p>Made with love by © Rerbs. All rights reserved.</p>
+    </footer>
+</body>
+</html>
